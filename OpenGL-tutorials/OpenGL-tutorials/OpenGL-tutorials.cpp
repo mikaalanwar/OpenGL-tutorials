@@ -1,9 +1,36 @@
+//// OpenGL-tutorials.cpp : This file contains the 'main' function. Program execution begins and ends there.
+////
+//
+//#include "pch.h"
+//#include <iostream>
+//
+//int main()
+//{
+//    std::cout << "Hello World!\n"; 
+//}
+//
+//// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
+//// Debug program: F5 or Debug > Start Debugging menu
+//
+//// Tips for Getting Started: 
+////   1. Use the Solution Explorer window to add/manage files
+////   2. Use the Team Explorer window to connect to source control
+////   3. Use the Output window to see build output and other messages
+////   4. Use the Error List window to view errors
+////   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
+////   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
 // 3Dopengl.cpp : Defines the entry point for the console application.
 //
+//#include "stdafx.h"
 #include "pch.h"
 #include <GL/glut.h>
 #include <iostream>
 #include <cmath>
+//using namespace System;
+//using namespace System::Threading;
+
+using namespace std;
 
 /* Global variables */
 char title[] = "3D Shapes";
@@ -33,12 +60,10 @@ void display() {
 
 		for (float i = 0; i <= 360; i += 0.01) {
 			glBegin(GL_LINES);
+
+
 			glVertex3f(0.5*cos(i), 0.5*sin(i), 1.0);
-			//glBegin(GL_LINES);
-			//glVertex3f(0.5*Math::Cos(i), 0.5*Math::Sin(i), 1.0);
-			//glVertex3f(0.5*Math::Cos(i), 0.5*Math::Sin(i), -1.0);
-			//glEnd();
-			glVertex3f(0.5*cos(i), 0.5*sin(i), -1.0);
+			glVertex3f(0.0, 0.0, -1.0);
 			glEnd();
 		}
 
