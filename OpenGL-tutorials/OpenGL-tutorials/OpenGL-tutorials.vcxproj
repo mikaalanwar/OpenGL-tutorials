@@ -164,6 +164,7 @@
     </ClCompile>
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="SampleTranslation.cpp" />
+    <ClCompile Include="sphere.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
