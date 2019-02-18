@@ -1,5 +1,6 @@
 //// 3Dopengl.cpp : Defines the entry point for the console application.
 ////
+//
 #include "pch.h"
 //#include <GL/glut.h>
 //
@@ -50,71 +51,44 @@
 //
 //		//glEnd();   // Done drawing the pyramid
 //
-//		glBegin(GL_POLYGON);
+//		glBegin(GL_TRIANGLES);
 //
-//		glColor3f(0.7, 0.0, 0.5);
+//		glColor3f(0.7, 0.5, 0.5);
 //
-//		glVertex3f(-0.4, 0.2, 1.0);
-//		glVertex3f(-0.2, 0.4, 1.0);
-//		glVertex3f(0.2, 0.4, 1.0);
-//		glVertex3f(0.4, 0.2, 1.0);
-//		glVertex3f(0.4, -0.2, 1.0);
-//		glVertex3f(0.2, -0.4, 1.0);
-//		glVertex3f(-0.2, -0.4, 1.0);
-//		glVertex3f(-0.4, -0.2, 1.0);
-//		glVertex3f(-0.4, 0.2, 1.0);
+//		glVertex3f(0.0, 1.0, 1.0);
+//		glVertex3f(-1.0, -1.0, 1.0);
+//		glVertex3f(1.0, -1.0, 1.0);
 //
-//		glEnd();
+//		glVertex3f(0.0, 1.0, 1.0);
+//		glVertex3f(-1.0, -1.0, 1.0);
+//		glVertex3f(1.0, -1.0, -1.0);
 //
-//		glBegin(GL_POLYGON);
+//		glVertex3f(0.0, 1.0, 1.0);
+//		glVertex3f(1.0, -1.0, 1.0);
+//		glVertex3f(1.0, -1.0, -1.0);
+//		//glVertex3f(0.0, 1.0, 1.0);
+//		//glVertex3f(-0.5, -1.0, -1.0);
+//		//glVertex3f(0.5, -1.0, -1.0);
 //
-//		glColor3f(0.0, 1.0, 0.5);
 //
-//		glVertex3f(-0.4, 0.2, -1.0);
-//		glVertex3f(-0.2, 0.4, -1.0);
-//		glVertex3f(0.2, 0.4, -1.0);
-//		glVertex3f(0.4, 0.2, -1.0);
-//		glVertex3f(0.4, -0.2, -1.0);
-//		glVertex3f(0.2, -0.4, -1.0);
-//		glVertex3f(-0.2, -0.4, -1.0);
-//		glVertex3f(-0.4, -0.2, -1.0);
-//		glVertex3f(-0.4, 0.2, -1.0);
 //
 //		glEnd();
 //
-//		glBegin(GL_LINES);
+//		/*	glBegin(GL_POLYGON);
 //
-//		glColor3f(0.0, 1.0, 0.0);
+//			glColor3f(0.0, 1.0, 0.5);
 //
-//		glVertex3f(-0.4, 0.2, 1.0);
-//		glVertex3f(-0.4, 0.2, -1.0);
+//			glVertex3f(-0.4, 0.2, -1.0);
+//			glVertex3f(-0.2, 0.4, -1.0);
+//			glVertex3f(0.2, 0.4, -1.0);
+//			glVertex3f(0.4, 0.2, -1.0);
+//			glVertex3f(0.4, -0.2, -1.0);
+//			glVertex3f(0.2, -0.4, -1.0);
+//			glVertex3f(-0.2, -0.4, -1.0);
+//			glVertex3f(-0.4, -0.2, -1.0);
+//			glVertex3f(-0.4, 0.2, -1.0);
 //
-//		glVertex3f(-0.2, 0.4, 1.0);
-//		glVertex3f(-0.2, 0.4, -1.0);
-//
-//		glVertex3f(0.2, 0.4, 1.0);
-//		glVertex3f(0.2, 0.4, -1.0);
-//
-//		glVertex3f(0.4, 0.2, 1.0);
-//		glVertex3f(0.4, 0.2, -1.0);
-//
-//		glVertex3f(0.4, -0.2, 1.0);
-//		glVertex3f(0.4, -0.2, -1.0);
-//
-//		glVertex3f(0.2, -0.4, 1.0);
-//		glVertex3f(0.2, -0.4, -1.0);
-//
-//		glVertex3f(-0.2, -0.4, 1.0);
-//		glVertex3f(-0.2, -0.4, -1.0);
-//
-//		glVertex3f(-0.4, -0.2, 1.0);
-//		glVertex3f(-0.4, -0.2, -1.0);
-//
-//
-//		glVertex3f(-0.4, 0.2, 1.0);
-//		glVertex3f(-0.4, 0.2, -1.0);
-//
-//		glEnd();
+//		*/	glEnd();
 //
 //		glutSwapBuffers();  // Swap the front and back frame buffers (double buffering)
 //	}
