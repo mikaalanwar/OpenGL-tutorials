@@ -167,6 +167,7 @@
     <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="SampleTranslation.cpp" />
     <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="TriangularPrism.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
